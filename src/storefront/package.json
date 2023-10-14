@@ -42,7 +42,7 @@
     "http-proxy-middleware": "^0.19.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^6.0.0",
-    "jest": "^24.8.0",
+    "jest": "^29.7.0",
     "minimist": "^1.2.0",
     "webpack-stream": "^5.2.1"
   },
