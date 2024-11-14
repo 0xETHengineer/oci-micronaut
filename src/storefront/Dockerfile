@@ -45,7 +45,7 @@ RUN npm run build
 ###############################
 # Webserver container (nginx) #
 ###############################
-FROM nginx:alpine as web
+FROM nginx:1.27.2-alpine3.20 as web
 
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
